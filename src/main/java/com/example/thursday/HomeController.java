@@ -11,7 +11,7 @@ public class HomeController {
     @ResponseBody
     @GetMapping("/")
     public String index(){
-        return "<h2>You've made it again!</h2>";
+        return "<h2>You've made it again! Now you may have a break.</h2>";
     }
 
 }
